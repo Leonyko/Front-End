@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ProyectoArgProg": {
+    "Projecto_con_Angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/proyecto-arg-prog",
+            "outputPath": "dist/projecto-con-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ProyectoArgProg:build:production"
+              "browserTarget": "Projecto_con_Angular:build:production"
             },
             "development": {
-              "browserTarget": "ProyectoArgProg:build:development"
+              "browserTarget": "Projecto_con_Angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ProyectoArgProg:build"
+            "browserTarget": "Projecto_con_Angular:build"
           }
         },
         "test": {
